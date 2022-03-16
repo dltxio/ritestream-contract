@@ -1,6 +1,7 @@
 import { deployContract, verifyOnEtherscan } from "../utils";
 import contracts from "../../../contracts.json";
 import saleVestingSeed from "../../saleVestingSeed";
+import { ethers } from "ethers";
 
 export const contractNames = () => ["saleVesting"];
 
