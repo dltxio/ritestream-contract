@@ -1,5 +1,4 @@
-pragma solidity ^0.8.11;
-pragma abicoder v2;
+pragma solidity 0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
@@ -34,11 +33,24 @@ contract TeamVesting is Ownable {
     address public immutable self;
     address public immutable RITE;
     uint256 public startDate;
+    uint256 public totalClaimed;
+    uint256 public totalVestingAmount = 0;
+    //Maximun number of vesting detail array.
+    uint256 private constant maxVestingDetailArray = 20;
+
+    //If the current owner wants to renounceOwnership, it will always be to this address
+    address private constant fixedOwnerAddress =
+        0x1156B992b1117a1824272e31797A2b88f8a7c729;
 
     constructor(address _RITE, uint256 _startDate) {
+        //Vesting start date
+        require(
+            _startDate >= block.timestamp,
+            "Start date cannot be before the deployment date"
+        );
+        require(_RITE != address(0), "Address cannot be zero");
         self = address(this);
         RITE = _RITE;
-        //Vesting start date
         startDate = _startDate;
     }
 
@@ -56,8 +68,23 @@ contract TeamVesting is Ownable {
         //At least one vesting detail is required.
         require(count > 0, "No vesting details provided");
 
+        //Check on the maximum size over which the for loop will run over.
+        require(count <= maxVestingDetailArray, "Vesting detail array is full");
+
         for (uint256 i = 0; i < count; i++) {
+            //Check there are tokens available
+            uint256 contractTokenBalance = ERC20(RITE).balanceOf(self);
+            require(
+                contractTokenBalance >=
+                    totalVestingAmount + _vestingDetails[i].vestingAmount,
+                "Not enough tokens"
+            );
+
             address beneficiary = _vestingDetails[i].beneficiary;
+            require(
+                beneficiary != address(0),
+                "Beneficiary address cannot be zero"
+            );
             //Check if beneficiary already has a vesting
             require(
                 vestingDetails[beneficiary].vestingAmount == 0,
@@ -99,7 +126,7 @@ contract TeamVesting is Ownable {
             );
             //New vesting initial claimed amount must be false
             require(
-                _vestingDetails[i].initialClaimed == false,
+                !_vestingDetails[i].initialClaimed,
                 "Initial claimed can not be true"
             );
 
@@ -114,6 +141,8 @@ contract TeamVesting is Ownable {
                 _vestingDetails[i].claimStartTime,
                 true
             );
+
+            totalVestingAmount += _vestingDetails[i].vestingAmount;
 
             emit Vested(beneficiary, _vestingDetails[i].vestingAmount);
         }
@@ -130,7 +159,7 @@ contract TeamVesting is Ownable {
             "Vesting does not exist"
         );
         require(
-            vestingDetails[beneficiary].exists == true,
+            vestingDetails[beneficiary].exists,
             "Beneficiary has terminated"
         );
         require(
@@ -148,7 +177,7 @@ contract TeamVesting is Ownable {
         uint256 lastClaimedTime = vestingDetails[beneficiary].lastClaimedTime;
 
         if (
-            vestingDetails[beneficiary].initialClaimed == false &&
+            !vestingDetails[beneficiary].initialClaimed &&
             vestingDetails[beneficiary].initialAmount > 0
         ) {
             amountToClaim += vestingDetails[beneficiary].initialAmount;
@@ -173,6 +202,8 @@ contract TeamVesting is Ownable {
             amountToClaim =
                 vestingDetails[beneficiary].vestingAmount -
                 vestingDetails[beneficiary].claimedAmount;
+
+        totalClaimed += amountToClaim;
 
         vestingDetails[beneficiary].claimedAmount += amountToClaim;
         vestingDetails[beneficiary].lastClaimedTime = block.timestamp;
@@ -202,7 +233,7 @@ contract TeamVesting is Ownable {
         );
         //check if beneficiary exist
         require(
-            vestingDetails[beneficiary].exists == true,
+            vestingDetails[beneficiary].exists,
             "Beneficiary is already terminated"
         );
         vestingDetails[beneficiary].exists = false;
@@ -230,4 +261,9 @@ contract TeamVesting is Ownable {
     /// @param beneficiary a beneficiary address
     /// @param amount a claimed amount
     event Vested(address indexed beneficiary, uint256 amount);
+
+    /// @dev Override renounceOwnership to transfer ownership to a fixed address, make sure contract owner will never be address(0)
+    function renounceOwnership() public override onlyOwner {
+        _transferOwnership(fixedOwnerAddress);
+    }
 }

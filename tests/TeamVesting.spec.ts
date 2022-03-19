@@ -2,23 +2,28 @@ import hre, { ethers } from "hardhat";
 import { ethers as tsEthers } from "ethers";
 import { expect } from "chai";
 import { getRevertMessage } from "./utils";
-import { exists } from "fs";
 
 let token: tsEthers.Contract;
 let employeeVesting: tsEthers.Contract;
 let deployer: tsEthers.Signer;
 let employee1: tsEthers.Signer;
 let employee2: tsEthers.Signer;
-let startTime = 0;
+let employee3: tsEthers.Signer;
+let startTime;
 
 describe("Team Vesting", () => {
   before(async () => {
     deployer = (await ethers.getSigners())[0];
     employee1 = (await ethers.getSigners())[1];
     employee2 = (await ethers.getSigners())[2];
+    employee3 = (await ethers.getSigners())[3];
     token = await (
       await ethers.getContractFactory("Token")
     ).deploy("Token", "TKN", 18);
+
+    const currentBlockNumber = await ethers.provider.getBlockNumber();
+    startTime =
+      (await ethers.provider.getBlock(currentBlockNumber)).timestamp + 50;
 
     employeeVesting = await (
       await ethers.getContractFactory("TeamVesting")
@@ -230,5 +235,78 @@ describe("Team Vesting", () => {
     } catch (error) {
       expect(getRevertMessage(error)).to.equal("Beneficiary has terminated");
     }
+  });
+
+  it("Should not allow start date before deployment date", async () => {
+    try {
+      await (
+        await ethers.getContractFactory("TeamVesting")
+      ).deploy(token.address, 0);
+      throw new Error("Should not reach here");
+    } catch (error) {
+      expect(getRevertMessage(error)).to.equal(
+        "Start date cannot be before the deployment date"
+      );
+    }
+  });
+
+  it("Should not allow beneficiary address to be zero", async () => {
+    const employee1Address = ethers.constants.AddressZero;
+    const employeeList = [
+      {
+        beneficiary: employee1Address,
+        vestingAmount: ethers.BigNumber.from("1500000"),
+        duration: 93312000, //36 months
+        claimedAmount: 0,
+        lastClaimedTime: 0,
+        initialAmount: ethers.BigNumber.from("250000"),
+        initialClaimed: false,
+        claimStartTime: startTime + 15552000 //Date and time (GMT): Tuesday, February 8, 2022 11:23:14 PM +  180 days
+      }
+    ];
+    try {
+      await employeeVesting.setTeamVesting(employeeList);
+      throw new Error("Should not reach here");
+    } catch (error) {
+      expect(getRevertMessage(error)).to.equal(
+        "Beneficiary address cannot be zero"
+      );
+    }
+  });
+
+  it("Should not allow RITE address to be zero", async () => {
+    const RITE = ethers.constants.AddressZero;
+    const latestBlockNumber = await ethers.provider.getBlockNumber();
+    const latestBlock = await ethers.provider.getBlock(latestBlockNumber);
+    startTime = latestBlock.timestamp + 1000;
+    try {
+      await (
+        await ethers.getContractFactory("TeamVesting")
+      ).deploy(RITE, startTime);
+      throw new Error("Should not reach here");
+    } catch (error) {
+      expect(getRevertMessage(error)).to.equal("Address cannot be zero");
+    }
+  });
+
+  it("Should only allow owner to call renounceOwnership and new owner always be the fixed address ", async () => {
+    await expect(
+      token.connect(employee1).renounceOwnership()
+    ).to.be.revertedWith("Ownable: caller is not the owner");
+
+    await token.renounceOwnership();
+    const newOwner = await token.owner();
+    expect(newOwner).to.equal("0x1156B992b1117a1824272e31797A2b88f8a7c729"); //this the fixed new owner address
+
+    await expect(token.renounceOwnership()).to.be.revertedWith(
+      "Ownable: caller is not the owner"
+    );
+  });
+
+  it("Should not allow more tokens than are in the contract", async () => {
+    const contractBalance = await token.balanceOf(employeeVesting.address);
+    const totalClaimed = await employeeVesting.totalClaimed();
+    const totalVestingAmount = await employeeVesting.totalVestingAmount();
+    expect(contractBalance.gte(totalVestingAmount.sub(totalClaimed)));
   });
 });
