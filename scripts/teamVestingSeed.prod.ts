@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-const teamVestingSeed = [
+export const vestingSeed1 = [
   {
     beneficiary: "0xA61D1f138df1E04DEe8E8A092ca20C206d88d063",
     vestingAmount: ethers.BigNumber.from("1500000"),
@@ -220,7 +220,10 @@ const teamVestingSeed = [
     initialClaimed: false,
     claimStartTime: 1646870400 + 15552000, // 10 Mar 2022 + 180 days
     exists: true
-  },
+  }
+];
+
+export const vestingSeed2 = [
   {
     beneficiary: "0xbab5BcA6dD880CB4493cfd1d6c7Ad47443008641",
     vestingAmount: ethers.BigNumber.from("73000000"),
@@ -440,7 +443,9 @@ const teamVestingSeed = [
     initialClaimed: false,
     claimStartTime: 1646870400 + 14256000, // 10 Mar 2022 + 165 days
     exists: true
-  },
+  }
+];
+export const vestingSeed3 = [
   {
     beneficiary: "0x34882a99A4c8CB7716eF78B975d8293652F9dA2d",
     vestingAmount: ethers.BigNumber.from("20000000"),
