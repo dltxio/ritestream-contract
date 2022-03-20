@@ -1,4 +1,4 @@
-import { deployContract } from "../utils";
+import { deployContract, verifyOnEtherscan } from "../utils";
 
 export const contractNames = () => ["token"];
 
@@ -18,5 +18,7 @@ export const deploy = async (deployer, setAddresses) => {
   );
   console.log(`deployed Token to address ${token.address}`);
   setAddresses({ token: token.address });
+
+  await verifyOnEtherscan(token.address, constructorArguments());
   return token;
 };
