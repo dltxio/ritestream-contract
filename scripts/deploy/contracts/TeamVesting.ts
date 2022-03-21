@@ -7,6 +7,7 @@ import {
 } from "../../teamVestingSeed.test";
 import { ethers } from "ethers";
 import teamVestingABI from "../../../build/contracts/TeamVesting.sol/TeamVesting.json";
+import { Provider } from "@ethersproject/abstract-provider";
 
 export const contractNames = () => ["teamVesting"];
 
@@ -29,19 +30,21 @@ export const deploy = async (deployer, setAddresses) => {
 
   // await verifyOnEtherscan(teamVesting.address, constructorArguments());
 
-  const contract = new ethers.Contract(
+  const teamVesting = new ethers.Contract(
     contracts.binancetest.teamVesting,
     teamVestingABI.abi,
     deployer
   );
 
-  const result = await contract.getBeneficiaryVesting(
-    "0xA61D1f138df1E04DEe8E8A092ca20C206d88d063"
-  );
-  console.log(result);
-  // await contract.setTeamVesting(vestingSeed1);
-  // await contract.setTeamVesting(vestingSeed2);
-  // await contract.setTeamVesting(vestingSeed3);
+  await teamVesting.setTeamVesting(vestingSeed1, {
+    gasLimit: 10000000
+  });
+  await teamVesting.setTeamVesting(vestingSeed2, {
+    gasLimit: 10000000
+  });
+  await teamVesting.setTeamVesting(vestingSeed3, {
+    gasLimit: 10000000
+  });
   // for (const seed2 of vestingSeed2) {
   //   await contract.setTeamVesting(seed2);
   // }
@@ -49,5 +52,8 @@ export const deploy = async (deployer, setAddresses) => {
   //   await contract.setTeamVesting(seed3);
   // }
 
-  return contract;
+  // const block = await deployer.provider.getBlock("latest");
+  // console.log(block.timestamp);
+
+  return teamVesting;
 };
