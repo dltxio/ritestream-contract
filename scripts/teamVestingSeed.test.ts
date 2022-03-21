@@ -9,7 +9,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("250000"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -20,7 +20,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -31,7 +31,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -42,7 +42,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("58334"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -53,7 +53,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("50000"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -64,7 +64,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -75,7 +75,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("208334"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -86,7 +86,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("166667"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -97,7 +97,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -108,7 +108,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -119,7 +119,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("50000"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -130,7 +130,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("555556"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -141,7 +141,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -152,7 +152,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -163,7 +163,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -174,7 +174,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("58334"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -185,7 +185,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("7500000"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -196,7 +196,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -207,7 +207,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -218,7 +218,7 @@ export const vestingSeed1 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("50000"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   }
 ];
@@ -232,7 +232,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("12166667"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -243,7 +243,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("125000"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -254,7 +254,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("5228"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -265,7 +265,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("74575"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -276,7 +276,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("22537"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -287,7 +287,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("159802"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -298,7 +298,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("26634"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -309,7 +309,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("69248"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -320,7 +320,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("7285"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -331,7 +331,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("234377"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -342,7 +342,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("13437"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -353,7 +353,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("115886"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -364,7 +364,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("503889"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -375,7 +375,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("10654"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -386,7 +386,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("53268"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -397,7 +397,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("74575"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -408,7 +408,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("4583334"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -419,7 +419,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("479408"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -430,7 +430,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("2237236"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -441,7 +441,7 @@ export const vestingSeed2 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("3055556"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   }
 ];
@@ -454,7 +454,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("3055556"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -465,7 +465,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("381945"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -476,7 +476,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("133681"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -487,7 +487,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("114584"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -498,7 +498,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("190973"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -509,7 +509,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("190973"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -520,7 +520,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("104167"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -531,7 +531,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("1527778"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -542,7 +542,7 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("114584"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
     exists: true
   },
   {
@@ -553,7 +553,40 @@ export const vestingSeed3 = [
     lastClaimedTime: 0,
     initialAmount: ethers.BigNumber.from("114584"),
     initialClaimed: false,
-    claimStartTime: 1647820800,
+    claimStartTime: 1647871200,
+    exists: true
+  },
+  {
+    beneficiary: "0xe39d52e88Df905404EA8D452817d8FBb5d14eB6a",
+    vestingAmount: ethers.BigNumber.from("100000"),
+    duration: "93312000", // 36 months in seconds which is 60*60*24*30*36
+    claimedAmount: 0,
+    lastClaimedTime: 0,
+    initialAmount: ethers.BigNumber.from("2000"),
+    initialClaimed: false,
+    claimStartTime: 1647871200,
+    exists: true
+  },
+  {
+    beneficiary: "0x5755284003AD2AE68AAAf5fA710B7973235CA2ea",
+    vestingAmount: ethers.BigNumber.from("200000"),
+    duration: "93312000", // 36 months in seconds which is 60*60*24*30*36
+    claimedAmount: 0,
+    lastClaimedTime: 0,
+    initialAmount: ethers.BigNumber.from("3000"),
+    initialClaimed: false,
+    claimStartTime: 1647871200,
+    exists: true
+  },
+  {
+    beneficiary: "0x90494cA0a639Bf52E65511afF6458b9AB5eA77De",
+    vestingAmount: ethers.BigNumber.from("300000"),
+    duration: "93312000", // 36 months in seconds which is 60*60*24*30*36
+    claimedAmount: 0,
+    lastClaimedTime: 0,
+    initialAmount: ethers.BigNumber.from("4000"),
+    initialClaimed: false,
+    claimStartTime: 1647871200,
     exists: true
   }
 ];

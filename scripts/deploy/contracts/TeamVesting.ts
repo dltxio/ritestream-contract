@@ -35,9 +35,13 @@ export const deploy = async (deployer, setAddresses) => {
     deployer
   );
 
-  await contract.setTeamVesting(vestingSeed1);
-  await contract.setTeamVesting(vestingSeed2);
-  await contract.setTeamVesting(vestingSeed3);
+  const result = await contract.getBeneficiaryVesting(
+    "0xA61D1f138df1E04DEe8E8A092ca20C206d88d063"
+  );
+  console.log(result);
+  // await contract.setTeamVesting(vestingSeed1);
+  // await contract.setTeamVesting(vestingSeed2);
+  // await contract.setTeamVesting(vestingSeed3);
   // for (const seed2 of vestingSeed2) {
   //   await contract.setTeamVesting(seed2);
   // }

@@ -216,7 +216,7 @@ contract TeamVesting is Ownable {
     /// @param beneficiary Beneficiary address
     /// @return beneficiary's vesting struct
     function getBeneficiaryVesting(address beneficiary)
-        external
+        public
         view
         returns (VestingDetail memory)
     {
