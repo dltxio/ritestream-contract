@@ -4,7 +4,7 @@ import {
   vestingSeed20,
   vestingSeed40,
   vestingSeed51
-} from "../../teamVestingSeed.test";
+} from "../../teamVestingSeed.prod";
 import { ethers } from "ethers";
 import teamVestingABI from "../../../build/contracts/TeamVesting.sol/TeamVesting.json";
 import { Provider } from "@ethersproject/abstract-provider";

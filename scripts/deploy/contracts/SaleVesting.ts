@@ -11,7 +11,7 @@ import {
   saleSeed7,
   saleSeed8,
   saleSeed9
-} from "./../../saleVesting-test";
+} from "./../../saleVesting.prod";
 import saleVestingABI from "../../../build/contracts/SaleVesting.sol/SaleVesting.json";
 
 export const contractNames = () => ["saleVesting"];
