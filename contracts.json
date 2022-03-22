@@ -8,7 +8,7 @@
   },
   "binancetest": {
     "token": "0xf96c54c5F8D902550a9dabC29f06D8546a23F63d",
-    "saleVesting": "0xaB5225707ED4b9Aa65b7e2AdEC61838631Ce33a2",
-    "teamVesting": "0x0EaEd962041Ed47a0206b81B8384e389fc260D54"
+    "saleVesting": "0x58c3fed568B9B717d925c1b26E42915aB2f81AA0",
+    "teamVesting": "0xA7AAAd2f3063A9e1Ef9b9EB37249F44c7864Fd86"
   }
 }

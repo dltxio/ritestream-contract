@@ -52,7 +52,7 @@ export const saleSeed1 = [
     claimStartTime: 1648101600
   },
   {
-    beneficiary: "0xff8574133Ce09D5DED5bf9Ac2e4eA7f85ced062d",
+    beneficiary: "0x5669E8E2b4a1e0ffD3123413B03466eC35E8B258",
     vestingAmount: ethers.utils.parseEther("1250000"),
     duration: 42076800,
     claimedAmount: 0,
@@ -112,7 +112,7 @@ export const saleSeed1 = [
     claimStartTime: 1648101600
   },
   {
-    beneficiary: "0x5a801c67d0D8886776Ab0E39393Abf84DDd9cCc",
+    beneficiary: "0xcce4E16aCFBC3135CE6379ecB08F290e171f49D7",
     vestingAmount: ethers.utils.parseEther("200000"),
     duration: 42076800,
     claimedAmount: 0,
@@ -192,7 +192,7 @@ export const saleSeed1 = [
     claimStartTime: 1648101600
   },
   {
-    beneficiary: "0x4Eee8BA6724Ca5cEc0E1433B9f613936C774b9F5",
+    beneficiary: "0x352E3450509591635ed0b9e2Ed40C7f17d90E8C1",
     vestingAmount: ethers.utils.parseEther("416667"),
     duration: 31536000,
     claimedAmount: 0,
@@ -236,7 +236,7 @@ export const saleSeed2 = [
   },
   {
     beneficiary: "0x3c1F88EC41C4c6E02c56B2444544C58f04ab6F00",
-    vestingAmount: ethers.utils.parseEther("666667"),
+    vestingAmount: ethers.utils.parseEther("866667"),
     duration: 31536000,
     claimedAmount: 0,
     lastClaimedTime: 0,
@@ -305,7 +305,7 @@ export const saleSeed2 = [
     claimStartTime: 1648101600
   },
   {
-    beneficiary: "0x3597CE96f9A3D00AFdbb5aD79709990c26A2E9F7",
+    beneficiary: "0xF8A9ca89A7c6612cB00170b7f7F1dE76f1d1E870",
     vestingAmount: ethers.utils.parseEther("270000"),
     duration: 42076800,
     claimedAmount: 0,
@@ -408,16 +408,6 @@ export const saleSeed2 = [
 
 export const saleSeed3 = [
   {
-    beneficiary: "0x3c1F88EC41C4c6E02c56B2444544C58f04ab6F00",
-    vestingAmount: ethers.utils.parseEther("200000"),
-    duration: 31536000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("10000"),
-    claimStartTime: 1648101600
-  },
-  {
     beneficiary: "0x51446bE9A4f67D07fE1dc8b7050360ff836b31C1",
     vestingAmount: ethers.utils.parseEther("400000"),
     duration: 31536000,
@@ -468,7 +458,7 @@ export const saleSeed3 = [
     claimStartTime: 1648101600
   },
   {
-    beneficiary: "0xE228199c24D3E2f6c036269D998C1ec7C91e81d6",
+    beneficiary: "0xEdB073de20374c445DFaD96254218A61dd3b8e88",
     vestingAmount: ethers.utils.parseEther("1250000"),
     duration: 42076800,
     claimedAmount: 0,
@@ -1208,7 +1198,7 @@ export const saleSeed6 = [
   },
   {
     beneficiary: "0x97FF22C515c705Db76cDeD083dC602F1D5a9f189",
-    vestingAmount: ethers.utils.parseEther("16667"),
+    vestingAmount: ethers.utils.parseEther("41667"),
     duration: 31536000,
     claimedAmount: 0,
     lastClaimedTime: 0,
@@ -1219,16 +1209,6 @@ export const saleSeed6 = [
 ];
 
 export const saleSeed7 = [
-  {
-    beneficiary: "0x97FF22C515c705Db76cDeD083dC602F1D5a9f189",
-    vestingAmount: ethers.utils.parseEther("25000"),
-    duration: 31536000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("1250"),
-    claimStartTime: 1648101600
-  },
   {
     beneficiary: "0xF69FaB35C356554d0a2b6Bb6B08e1aE3EDE70bf4",
     vestingAmount: ethers.utils.parseEther("33333"),
@@ -1454,7 +1434,7 @@ export const saleSeed8 = [
   },
   {
     beneficiary: "0x252d36E6210817557Bf629A7039fDBf6aC4787E6",
-    vestingAmount: ethers.utils.parseEther("33333"),
+    vestingAmount: ethers.utils.parseEther("66667"),
     duration: 31536000,
     claimedAmount: 0,
     lastClaimedTime: 0,
@@ -1483,16 +1463,6 @@ export const saleSeed8 = [
     claimStartTime: 1648101600
   },
   {
-    beneficiary: "0x252d36E6210817557Bf629A7039fDBf6aC4787E6",
-    vestingAmount: ethers.utils.parseEther("16667"),
-    duration: 31536000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
-  },
-  {
     beneficiary: "0x86C64D100e4410762C923554cEB8E217Aa69ED8D",
     vestingAmount: ethers.utils.parseEther("166667"),
     duration: 31536000,
@@ -1500,16 +1470,6 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
-  },
-  {
-    beneficiary: "0x252d36E6210817557Bf629A7039fDBf6aC4787E6",
-    vestingAmount: ethers.utils.parseEther("16667"),
-    duration: 31536000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("833"),
     claimStartTime: 1648101600
   },
   {
@@ -1544,27 +1504,7 @@ export const saleSeed8 = [
   },
   {
     beneficiary: "0x4B39af1ed0b18b1aabf6e07DdDB6ce078c58eC0c",
-    vestingAmount: ethers.utils.parseEther("16667"),
-    duration: 31536000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
-  },
-  {
-    beneficiary: "0x4B39af1ed0b18b1aabf6e07DdDB6ce078c58eC0c",
-    vestingAmount: ethers.utils.parseEther("33333"),
-    duration: 31536000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
-  },
-  {
-    beneficiary: "0x4B39af1ed0b18b1aabf6e07DdDB6ce078c58eC0c",
-    vestingAmount: ethers.utils.parseEther("16667"),
+    vestingAmount: ethers.utils.parseEther("66667"),
     duration: 31536000,
     claimedAmount: 0,
     lastClaimedTime: 0,
@@ -1722,61 +1662,17 @@ export const saleSeed9 = [
     claimedAmount: 0,
     lastClaimedTime: 0,
     initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("0"),
+    initialAmount: ethers.utils.parseEther("1"),
     claimStartTime: 1648101600
   },
   {
     beneficiary: "0x555BACEAF365d50fb9b8A52adEA675c9Af788Ed9",
-    vestingAmount: ethers.utils.parseEther("160000000"),
+    vestingAmount: ethers.utils.parseEther("360000000"),
     duration: 93312000,
     claimedAmount: 0,
     lastClaimedTime: 0,
     initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("0"),
-    claimStartTime: 1648101600
-  },
-  {
-    beneficiary: "0x555BACEAF365d50fb9b8A52adEA675c9Af788Ed9",
-    vestingAmount: ethers.utils.parseEther("200000000"),
-    duration: 93312000,
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialClaimed: false,
-    initialAmount: ethers.utils.parseEther("0"),
-    claimStartTime: 1648101600
-  }
-];
-
-export const saleSeed10 = [
-  {
-    beneficiary: "0xe39d52e88Df905404EA8D452817d8FBb5d14eB6a",
-    vestingAmount: ethers.utils.parseEther("100000"),
-    duration: "31536000", // 36 months in seconds which is 60*60*24*30*36
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialAmount: ethers.utils.parseEther("2000"),
-    initialClaimed: false,
-    claimStartTime: 1648101600,
-    exists: true
-  },
-  {
-    beneficiary: "0x5755284003AD2AE68AAAf5fA710B7973235CA2ea",
-    vestingAmount: ethers.utils.parseEther("200000"),
-    duration: "31536000", // 36 months in seconds which is 60*60*24*30*36
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialAmount: ethers.utils.parseEther("3000"),
-    initialClaimed: false,
-    claimStartTime: 1648101600
-  },
-  {
-    beneficiary: "0x90494cA0a639Bf52E65511afF6458b9AB5eA77De",
-    vestingAmount: ethers.utils.parseEther("300000"),
-    duration: "31536000", // 36 months in seconds which is 60*60*24*30*36
-    claimedAmount: 0,
-    lastClaimedTime: 0,
-    initialAmount: ethers.utils.parseEther("4000"),
-    initialClaimed: false,
+    initialAmount: ethers.utils.parseEther("1"),
     claimStartTime: 1648101600
   }
 ];
