@@ -9,7 +9,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("62500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xB66e29158d18c34097a199624e5B126703B346C3",
@@ -19,7 +19,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("62500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x51108169c4eCD8Ba6437838ebc307898525aAF66",
@@ -29,7 +29,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("62500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x0196B25f7dCfe31DAD0f016357Bd0c7d5ff96b16",
@@ -39,7 +39,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("43750"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3558E727eEad470E0d812D831A4A7205D369736b",
@@ -49,7 +49,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("125000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x5669E8E2b4a1e0ffD3123413B03466eC35E8B258",
@@ -59,7 +59,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("31250"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x822DaaeAD66b8c2Ba15A7b8224869D4F5E5e7B61",
@@ -69,7 +69,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("25000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4Eee8BA6724Ca5cEc0E1433B9f613936C774b9F5",
@@ -79,7 +79,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("15625"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x390DAAc16d5879f70A51674CDdAd5e8b20abB885",
@@ -89,7 +89,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("125000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x06b85131c117d5895553139c7aAd97C3D1A7988c",
@@ -99,7 +99,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("125000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x63732E966f48f331501939B8Fe72312846F31807",
@@ -109,7 +109,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("12500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xcce4E16aCFBC3135CE6379ecB08F290e171f49D7",
@@ -119,7 +119,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("5000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x36cc79C21687A7Ca5D03EB12830eE08Ef6F1E297",
@@ -129,7 +129,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("62500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xC0d44b7504Bef845E7d8B9cddF3e9c8BB44c68e0",
@@ -139,7 +139,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("12500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x41Cb872cB02B01cfD69e7E70Be19caF63dC9Efd6",
@@ -149,7 +149,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xff8574133Ce09D5DED5bf9Ac2e4eA7f85ced062d",
@@ -159,7 +159,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("41667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x71B629237ED6d8f51297C89CDd80bf2748c94a82",
@@ -169,7 +169,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("166667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xdff0C80e60E16778C0ea13642A2E2b5774f18664",
@@ -179,7 +179,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("166667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x605cAEf4190F7F2A86964b04e767c41b18A4417f",
@@ -189,7 +189,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("50000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x352E3450509591635ed0b9e2Ed40C7f17d90E8C1",
@@ -199,7 +199,7 @@ export const saleSeed1 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("20833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -212,7 +212,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("58333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF5f6a4A2a3466b26C7f161258fc47Ff5800c0116",
@@ -222,7 +222,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("166667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xa50f89381301Decb11F1918586f98c5f2077e3Ca",
@@ -232,7 +232,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("83333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3c1F88EC41C4c6E02c56B2444544C58f04ab6F00",
@@ -242,7 +242,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("33333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xab38BBc59D4F52fE12f411e129FC3eC6C5c251EE",
@@ -252,7 +252,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xB9BbB220D5eB660BBB634805dfF8cBDacb732cB4",
@@ -262,7 +262,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("62500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x6A223106cF8cc7cAdc838eE8b8293504f5721eDb",
@@ -272,7 +272,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("62500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xB556F8bbF829b09C4259FBfF0777dfcdcf64b3F2",
@@ -282,7 +282,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("16670"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x0859a678FEf4f875F2eA813230C4eD1534F82C9B",
@@ -292,7 +292,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3597CE96f9A3D00AFdbb5aD79709990c26A2E9F7",
@@ -302,7 +302,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("21000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF8A9ca89A7c6612cB00170b7f7F1dE76f1d1E870",
@@ -312,7 +312,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("6750"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xc0D773CA30871fEF7C21ceDfa60D380215d45A3D",
@@ -322,7 +322,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x58566C0f3D9E2d7bd88A5172bB48da6578fE4f60",
@@ -332,7 +332,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("83333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xaA586A923daFaBe7ce4c206B0BBd4eb20007EDB7",
@@ -342,7 +342,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("66667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xd61cec242eaDD778fdaeb6c09ef049208acD09F3",
@@ -352,7 +352,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("33333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x71d1f0a05F82c0EBd02b8704E3d2337b517a6B3A",
@@ -362,7 +362,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("83333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x1C9a017Db6689E98D478c030a1AC7a207B4d1C45",
@@ -372,7 +372,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("41667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x23B317d6e1A904A2590AD9A9ADc8e8fa88E90837",
@@ -382,7 +382,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("6667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xaacAe045E4AB12e9f0C155973E60215dA5c085d0",
@@ -392,7 +392,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("113500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF519B7805f6384DfEC34C30dD13cc4fEbbB646D1",
@@ -402,7 +402,7 @@ export const saleSeed2 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("16667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -415,7 +415,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("20000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xb5a5B9d508AD42Bb3d529550EB2eF790004Db146",
@@ -425,7 +425,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("166667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x1b75c6DC2C2cff9E6eAF54c5d72b3447740f1e76",
@@ -435,7 +435,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("183333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x9ebbF453E088DE4B9CC206fECe5e9858C41c814F",
@@ -445,7 +445,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("49000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x5dcEd9554C48AF9D83caf219EA61Ac48f0E1b438",
@@ -455,7 +455,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("125000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xEdB073de20374c445DFaD96254218A61dd3b8e88",
@@ -465,7 +465,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("31250"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xE228199c24D3E2f6c036269D998C1ec7C91e81d6",
@@ -475,7 +475,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("41667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x45Afb2a04B27eE174Af54b9c2C9CEbF2eB78Db1A",
@@ -485,7 +485,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF822483BFf2dfe004982403540D1f596862CbAac",
@@ -495,7 +495,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("25000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x5fAFeC436B45a12Ff430804A644E68Cb012E5bD6",
@@ -505,7 +505,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4d883824258f7253101f266a23207DCb2Dd45768",
@@ -515,7 +515,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xf7df64ee1f6F79B0F2761A7E80EeD313Bb98fAd3",
@@ -525,7 +525,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("16667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x44D748720a2039e89711999FeAc405DDbECbE210",
@@ -535,7 +535,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x396D4A257d4b98F353C5c5B954B35F3fC52acb4F",
@@ -545,7 +545,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("58333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x6F10d4e2557E906d105554640F98D6E235125fCE",
@@ -555,7 +555,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("11667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF3ef40dA35FA30E1f104b93B48f40225508f8E47",
@@ -565,7 +565,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("83333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4Fe0C13493c8DF6dFb4ff06ffBa896fb34DccbA7",
@@ -575,7 +575,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("51667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xE68e6718286605Bb01e115b1100107a535072dF2",
@@ -585,7 +585,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("83333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x85B2b25BCb79A4945c1d7ad5e773f4af5b7167c3",
@@ -595,7 +595,7 @@ export const saleSeed3 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -608,7 +608,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("417"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xEd8Fe877A9CCCD900De35Bb90Db8A6681D9ea954",
@@ -618,7 +618,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("35000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4A78Ef1bD3F6CB859052915A59782CFA14c47A58",
@@ -628,7 +628,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("50000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x66886B3A3DC2b44cb69B18a6b5aF3A989290BDbF",
@@ -638,7 +638,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("33333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x2673d35a023A47A6efF2A821224ff52B013293ce",
@@ -648,7 +648,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("166667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x7f719a29F46B899b4f4C60D21e88DB4A382e8033",
@@ -658,7 +658,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x01204297dB860f097C2902Be6D6aC3e654B89c66",
@@ -668,7 +668,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("33333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x09b87FC2560EFe72C40CE2C8C6abd056Dfa2A10f",
@@ -678,7 +678,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("2500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3fFb973fBf427bE843a52490B2d8C409fC2319b6",
@@ -688,7 +688,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("16833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xEFb2672Ef6a2933695852a5A9dc800cCaa1498e2",
@@ -698,7 +698,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x40686bbc854148b37c7a6a1adb7e7efdd1d4b0d6",
@@ -708,7 +708,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x07284b01d3b834e5366fa75d4c756fbde8c293be",
@@ -718,7 +718,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("375"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x218aa60078d6cb4dbd073fabe853643ce07d2a42",
@@ -728,7 +728,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x247ff96720ec1406f67543831e7ece60f4a1a894",
@@ -738,7 +738,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("900"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xe8d37dfc72a2e2936def85aee1c636803d8bc2c1",
@@ -748,7 +748,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("7170"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xd55fad852cf0b4d9f5dc5268d104de16ec2416d5",
@@ -758,7 +758,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("525"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3ffe4a4130e9d478023b76c1569dba73499d69ef",
@@ -768,7 +768,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("750"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xee0205d0ecbb5b4e44856771bad3fcef54ba6dec",
@@ -778,7 +778,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("330"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xaefdc721ba8e904e4792d2f18ea62d8203df728e",
@@ -788,7 +788,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("765"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x384582ce938903395c7070fa3f8a3a3a02217823",
@@ -798,7 +798,7 @@ export const saleSeed4 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("600"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -811,7 +811,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("600"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xd5c58b0d819be34b7b8ff69e76e6a4b5fb912263",
@@ -821,7 +821,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("300"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x7d682d4a62244481ce11267f6d522953157d2067",
@@ -831,7 +831,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("15000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x326930807da432368f6de17f2161a85d8e14a1c9",
@@ -841,7 +841,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("450"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xbf832b66ae1056105a48a310143dc49def034061",
@@ -851,7 +851,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("375"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x24fb01830f38053987213a57082f734d4f8c708c",
@@ -861,7 +861,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("225"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x6b1874f9fe6797f1004a9cb1bb6d0754f90b6bb0",
@@ -871,7 +871,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("840"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xb7a64b4b3703c10c973657517a77caaff81b827c",
@@ -881,7 +881,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("225"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x423c7d57b253331c90db1e5133dd45a70bba689e",
@@ -891,7 +891,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("450"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x18c2d29a1e35b112e5e8b96ef4d308ff23316035",
@@ -901,7 +901,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("300"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3aaa3aad206cea1a53832f30d177e1654a422d58",
@@ -911,7 +911,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1650"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xa4a4739f08c598a64ed5f21062a4f32ee206b730",
@@ -921,7 +921,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("30000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x02d4bc45e55f325a0a20f5831b60e1f55918aba8",
@@ -931,7 +931,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("2250"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x06a599cf5d3ec2345ba3be65d1a29e4b82759877",
@@ -941,7 +941,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("514"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x314a4d0bcd76ac923b80916e65f7d5e2565a8ff6",
@@ -951,7 +951,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("837"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x388275f30ba1ee39b1ac4b2d224de241c63d9381",
@@ -961,7 +961,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("750"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xeaac8ae3b943f0e83ddb6f81c3cb4119fb294a49",
@@ -971,7 +971,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("764"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x5cad4eed8374f1f3962b915b71acd36f4927e1d1",
@@ -981,7 +981,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("263"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4ba0bf1efffc1df4e5e77d8b065c39beeb8a33c8",
@@ -991,7 +991,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xcdd961b0099bbdcf50b490eea4cf7d58a2a1fd95",
@@ -1001,7 +1001,7 @@ export const saleSeed5 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -1014,7 +1014,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1650"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xb67309d4ce9917937022d01c3130385157ed5cdc",
@@ -1024,7 +1024,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("2250"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x6d8080239b5643a1dc954dc04483fcf8aaac41a6",
@@ -1034,7 +1034,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("150"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x408a551d87185de8a3efdbf847c73f1079022c6c",
@@ -1044,7 +1044,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x016d5619495618f6a932416161c8d4f7c94e6267",
@@ -1054,7 +1054,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("2250"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x95dd613aeadee328de31c073d4c7653781743898",
@@ -1064,7 +1064,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1440"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x40dbfa7e7348db2e35acb1a7603cf3dea6ad0217",
@@ -1074,7 +1074,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("407"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xeb9c11efe97a6a52ae63989b8034801d237401fd",
@@ -1084,7 +1084,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x67f20588a35587c0d3ffa04eab363ea39ac83b7f",
@@ -1094,7 +1094,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xeaf2bfb743cad652376d5ddc28caed6aba630274",
@@ -1104,7 +1104,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("837"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x989880fdb3a3ac42dc407d843131fb45f66f276d",
@@ -1114,7 +1114,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("525"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x7e65c7fff1a49056965b1dbbf1351d407d080058",
@@ -1124,7 +1124,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1800"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xec9e489936f60497898b40f3fe44bc22c56b62b9",
@@ -1134,7 +1134,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xe096c767ab4ad513dd6e639c54490724b12195df",
@@ -1144,7 +1144,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("300"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xa71b5baf388788d83338204b93b0ff494360c0ba",
@@ -1154,7 +1154,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("300"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x743A02a0FF7Fab0Be8b2DE9D024Ef6D621F3e4e3",
@@ -1164,7 +1164,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("15716"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x60126cf9cbE5D7663d271b42f1E8f1FF95B0a011",
@@ -1174,7 +1174,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xa04DF0c2d72Be2712c2bf3c05260F4fD5b44970b",
@@ -1184,7 +1184,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xC78A20CB9A56A5A0De3a8a79b18DA422b9F71b81",
@@ -1194,7 +1194,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x97FF22C515c705Db76cDeD083dC602F1D5a9f189",
@@ -1204,7 +1204,7 @@ export const saleSeed6 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -1217,7 +1217,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3Da8839f93b141Fe177573bbA1FD834bbdaFD21F",
@@ -1227,7 +1227,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x147720B99f540f58D535CA027e0A440e9a48beD2",
@@ -1237,7 +1237,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xB8312A31D885fB0E61A2a1690bD7833a3b063960",
@@ -1247,7 +1247,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x22301de7Fcf71536ED7F323BD8db1cEBadE13814",
@@ -1257,7 +1257,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x93A079B56F8685aC260F8f1c8459967af82dF6ED",
@@ -1267,7 +1267,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x89596a09D433247Fc61eDf72d1E6345E7395ea04",
@@ -1277,7 +1277,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x0672B91598051581C17E0B40Ac9B0a2259268854",
@@ -1287,7 +1287,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x07F607dEb23c081341D5fCba482326bAF5AaF013",
@@ -1297,7 +1297,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x2aF40EFD97E17f278086FaF78B8b0401371db761",
@@ -1307,7 +1307,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xB21A1a7a31BA649805Bc2Dda4AF0e9B9AD0C3115",
@@ -1317,7 +1317,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xe93c1d7e4d822690abdde14660e5f45813d28c27",
@@ -1327,7 +1327,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x1Ce6205066Bc3266994Ef51065613E4a061FD582",
@@ -1337,7 +1337,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("917"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x9A858fa1dF0642Ed8CAcB09F025D178177d70306",
@@ -1347,7 +1347,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x8498D835cd04987944e496A5fBF095e0f27436C1",
@@ -1357,7 +1357,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x99Cf5a2270b28DDEee0a79471e2B0072F501750F",
@@ -1367,7 +1367,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4c79948605Ad9297AcD61352D135DCbEdd7c54a4",
@@ -1377,7 +1377,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF525c4fF1D6002363f16a81e54a480175ae4173A",
@@ -1387,7 +1387,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xFB10D7772e65d665f40e6De133f30b3D223A6EFA",
@@ -1397,7 +1397,7 @@ export const saleSeed7 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -1410,7 +1410,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x6789C319fdd0a5a2D0Bf8F520178D762BA415061",
@@ -1420,7 +1420,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xF8B1c66c4b266025a0ddC20Db93c3f1fD95AE1e5",
@@ -1430,7 +1430,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x252d36E6210817557Bf629A7039fDBf6aC4787E6",
@@ -1440,7 +1440,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x1026CC00684872F5807942964E2d84a1Ae3eC644",
@@ -1450,7 +1450,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xCE4A2679156eeDa9600234Cd36EE0e79003b7E78",
@@ -1460,7 +1460,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x86C64D100e4410762C923554cEB8E217Aa69ED8D",
@@ -1470,7 +1470,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xbe84057D459486BA627d96d239910C150Dee4B48",
@@ -1480,7 +1480,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("2500"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x9fA2A28F39BA2ad55A1E7De3FcA9145143b91D69",
@@ -1490,7 +1490,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x54a0e8fcD4d6E884540d8C71e30e1C20bEC82Db1",
@@ -1500,7 +1500,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("5000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x4B39af1ed0b18b1aabf6e07DdDB6ce078c58eC0c",
@@ -1510,7 +1510,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x7D5E6530a855e644298353177c153023D356a60f",
@@ -1520,7 +1520,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xD7B54E1A25314020ec182F30d20AecB5695451Ef",
@@ -1530,7 +1530,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("25833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x3980b2DFD3265e01601ffd2809fF6cE333Dd3b57",
@@ -1540,7 +1540,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1667"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xc2313bd55BC72003a96F21caE0d4567123978DB1",
@@ -1550,7 +1550,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x472C3Fd5c01886F53Ea968Ce606F4034B3b2f7b0",
@@ -1560,7 +1560,7 @@ export const saleSeed8 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("833"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
 
@@ -1573,7 +1573,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("8333"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x1809c7078458a7d1290857ea5c836e72747cb1a6",
@@ -1583,7 +1583,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1875"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xA55Ff4972bcA2FAC7E0404Cf70433A3dEfa4c65c",
@@ -1593,7 +1593,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1875"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x74a94FA7B8e8C14f01B2EB72eaC99107b64bB8dD",
@@ -1603,7 +1603,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3750"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xd48571117f3655F5360AF815960118F0A3c9fa49",
@@ -1613,7 +1613,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("3750"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xD1623b72175BEf95e69DeaaA809Be491561F72Cd",
@@ -1623,7 +1623,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1875"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0xe789d33b85cadc8cbebb487e6647121ba80dc951",
@@ -1633,7 +1633,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1250"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x1D66C46FeF8cC98dF4E310c47f617e6F931E5748",
@@ -1643,7 +1643,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("2000"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x01f776d3D6253Cb5097d651Ab5979De8177280A4",
@@ -1653,7 +1653,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("25625"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x387d828169E48dc6B15B9326DC4b660A5B4af45b",
@@ -1663,7 +1663,7 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   },
   {
     beneficiary: "0x555BACEAF365d50fb9b8A52adEA675c9Af788Ed9",
@@ -1673,6 +1673,6 @@ export const saleSeed9 = [
     lastClaimedTime: 0,
     initialClaimed: false,
     initialAmount: ethers.utils.parseEther("1"),
-    claimStartTime: 1648101600
+    claimStartTime: 1648113300
   }
 ];
