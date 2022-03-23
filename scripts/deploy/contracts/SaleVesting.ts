@@ -1,6 +1,18 @@
 import { deployContract, verifyOnEtherscan } from "../utils";
 import contracts from "../../../contracts.json";
-import saleVestingSeed from "../../saleVestingSeed";
+import { ethers } from "ethers";
+import {
+  saleSeed1,
+  saleSeed2,
+  saleSeed3,
+  saleSeed4,
+  saleSeed5,
+  saleSeed6,
+  saleSeed7,
+  saleSeed8,
+  saleSeed9
+} from "./../../saleVesting-prod";
+import saleVestingABI from "../../../build/contracts/SaleVesting.sol/SaleVesting.json";
 
 export const contractNames = () => ["saleVesting"];
 
@@ -23,7 +35,39 @@ export const deploy = async (deployer, setAddresses) => {
 
   await verifyOnEtherscan(saleVesting.address, constructorArguments());
 
-  //Set sale vesting seed after deploy the contract
-  await (await saleVesting.setVesting(saleVestingSeed)).wait();
+  //TODO: need this guy to set the vesting seeds
+  // const saleVesting = new ethers.Contract(
+  //   contracts.binancetest.saleVesting,
+  //   saleVestingABI.abi,
+  //   deployer
+  // );
+
+  // await saleVesting.setVesting(saleSeed1, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed2, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed3, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed4, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed5, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed6, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed7, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed8, {
+  //   gasLimit: 10000000
+  // });
+  // await saleVesting.setVesting(saleSeed9, {
+  //   gasLimit: 10000000
+  // });
   return saleVesting;
 };

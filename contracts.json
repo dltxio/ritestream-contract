@@ -7,7 +7,8 @@
     "token": "0x2F23C0D879e37eb8bEe10D4174a287f65043D688"
   },
   "binancetest": {
-    "token": "0xf62F3aF0Ee56E00655a99a952Ea507e58CDf1766",
-    "saleVesting": "0x620f118883aA34658929ca63d22da0628ef9fE6d"
+    "token": "0xf96c54c5F8D902550a9dabC29f06D8546a23F63d",
+    "saleVesting": "0x58c3fed568B9B717d925c1b26E42915aB2f81AA0",
+    "teamVesting": "0xA7AAAd2f3063A9e1Ef9b9EB37249F44c7864Fd86"
   }
 }
