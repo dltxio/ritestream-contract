@@ -435,11 +435,11 @@ export const vestingSeed40 = [
   },
   {
     beneficiary: "0x93044E5ED197D1ba1E3CBf7Fdf3aA2e460d6e840",
-    vestingAmount: ethers.utils.parseEther("20000000"),
+    vestingAmount: ethers.utils.parseEther("32500000"),
     duration: "93312000", // 36 months in seconds which is 60*60*24*30*36
     claimedAmount: 0,
     lastClaimedTime: 0,
-    initialAmount: ethers.utils.parseEther("3055556"),
+    initialAmount: ethers.utils.parseEther("4965278"),
     initialClaimed: false,
     claimStartTime: 1648113300 + 14256000, // 24 March 2022 + 165 days
     exists: true
