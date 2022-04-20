@@ -1,7 +1,7 @@
 import { task } from "hardhat/config";
 import contracts from "../../contracts.json";
 
-task("verify-contracts-etherscan").setAction(async (args, hre) => {
+task("verify-contracts-etherscan").setAction(async (_, hre) => {
   console.log(`network is ${hre.network.name}`);
   const networkContracts = contracts[hre.network.name];
   const contractDeploymentModules = (await import("../deploy/contracts"))
